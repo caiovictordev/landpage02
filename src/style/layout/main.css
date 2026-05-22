@@ -1,0 +1,29 @@
+main{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1000px;
+}
+.txtMain{
+    width: 100%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 2.5rem;
+}
+.txtMain h1{
+    font-size: 3.5rem;
+}
+.txtMain p{
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.699);
+}
+.btnMain{
+    width: 15vw;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    background: #40B655;
+    border: none;
+    color: #fff;
+}
