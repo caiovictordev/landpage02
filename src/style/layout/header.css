@@ -1,0 +1,21 @@
+header{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoHeader{
+    display: flex;
+}
+nav{
+    margin-right: 150px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
